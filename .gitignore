@@ -1,0 +1,11 @@
+# Belső QA-anyagok: nyers fotók, QA-oldalak — NEM része a látványtervnek
+_qa/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp

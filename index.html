@@ -1,0 +1,594 @@
+<!doctype html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>DTC Bisztró | Napi menü, pizza és frissensültek – Diósd</title>
+<meta name="description" content="DTC Bisztró, 2049 Diósd, Pacsirta utca 29. Napi menü hétfőtől péntekig, pizza, frissensültek, saláták – házhozszállítással is. Online rendelés hétfő–péntek 08:00–14:55.">
+<meta name="theme-color" content="#0e0d0b">
+<meta name="color-scheme" content="dark">
+<link rel="canonical" href="https://dtcbisztro.hu/">
+<script>document.documentElement.classList.add('js');</script>
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="hu_HU">
+<meta property="og:site_name" content="DTC Bisztró">
+<meta property="og:title" content="DTC Bisztró – Diósd ízei. Frissen. Minden nap.">
+<meta property="og:description" content="Napi menü hétfőtől péntekig, pizza és frissensültek Diósdon. Online rendelés 08:00–14:55, kiszállítás 11:00–15:00.">
+<meta property="og:image" content="assets/img/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="assets/img/logo-dtc.png" type="image/png">
+
+<link rel="preload" href="assets/fonts/fraunces-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/archivo-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/fonts/fonts.css">
+<link rel="stylesheet" href="assets/css/base.css">
+<link rel="stylesheet" href="assets/css/layout.css">
+<link rel="stylesheet" href="assets/css/sections.css">
+
+<script src="assets/js/data-menu.js" defer></script>
+<script src="assets/js/motion.js" defer></script>
+<script src="assets/js/ui.js" defer></script>
+</head>
+
+<body>
+<a class="skip-link" href="#tartalom">Ugrás a tartalomra</a>
+<div class="grain" aria-hidden="true"></div>
+
+<!-- ============================ NAVBAR ============================ -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a class="nav__brand" href="#top" aria-label="DTC Bisztró – főoldal">
+      <img src="assets/img/logo-dtc.png" width="40" height="37" alt="" decoding="async">
+      <span class="nav__word">DTC <b>Bisztró</b></span>
+    </a>
+
+    <nav class="nav__links" aria-label="Főmenü">
+      <a href="#menu">Napi menü</a>
+      <a href="#kinalat">Kínálat</a>
+      <a href="#galeria">Galéria</a>
+      <a href="#kapcsolat">Kapcsolat</a>
+    </nav>
+
+    <div class="nav__actions">
+      <a class="btn btn--accent btn--sm nav__order" href="https://dtcbisztro.hu/" target="_blank" rel="noopener" data-magnetic>
+        Rendelek
+      </a>
+      <button class="burger" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Menü megnyitása">
+        <span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ======================= FULLSCREEN MENÜ (MOBIL) ======================= -->
+<div class="mmenu" id="mobile-menu" hidden>
+  <nav class="mmenu__links" aria-label="Mobil menü">
+    <a href="#top"><i>01</i>Főoldal</a>
+    <a href="#menu"><i>02</i>Napi menü</a>
+    <a href="#kinalat"><i>03</i>Kínálat</a>
+    <a href="#galeria"><i>04</i>Galéria</a>
+    <a href="#kapcsolat"><i>05</i>Kapcsolat</a>
+  </nav>
+  <div class="mmenu__foot">
+    <a class="btn btn--accent btn--block" href="https://dtcbisztro.hu/" target="_blank" rel="noopener">Rendelek</a>
+    <a class="mmenu__tel" href="tel:+36704133439">+36 70 413 3439</a>
+    <p>2049 Diósd, Pacsirta utca 29.</p>
+  </div>
+</div>
+
+<main id="tartalom">
+<span id="top"></span>
+
+<!-- ============================== HERO ============================== -->
+<section class="hero">
+  <div class="hero__bg" aria-hidden="true" data-parallax="0.14">
+    <img src="assets/img/lango-board-1800.webp" width="1800" height="1200" alt="" fetchpriority="high" decoding="async">
+  </div>
+  <div class="hero__veil" aria-hidden="true"></div>
+
+  <div class="hero__inner wrap">
+    <div class="hero__copy">
+      <p class="eyebrow hero__eyebrow"><span class="dot"></span>Diósd · Pacsirta utca 29.</p>
+
+      <h1 class="hero__title">
+        <span class="line"><span class="line__i">DTC</span></span>
+        <span class="line"><span class="line__i">Bisztró</span></span>
+      </h1>
+
+      <p class="hero__lead"><em>A napi ebéd, amit vársz.</em></p>
+      <p class="hero__sub">Házias ízek modern köntösben – napi menü, pizza és frissensültek,
+        Diósdon és a környéken házhoz is.</p>
+
+      <div class="hero__actions">
+        <a class="btn btn--ghost" href="#menu">Napi menü</a>
+        <a class="btn btn--accent" href="https://dtcbisztro.hu/" target="_blank" rel="noopener" data-magnetic>
+          Rendelek
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+
+      <dl class="hero__meta">
+        <div><dt>Online rendelés</dt><dd>Hétfő–Péntek 08:00–14:55</dd></div>
+        <div><dt>Telefon</dt><dd><a href="tel:+36704133439">+36 70 413 3439</a></dd></div>
+      </dl>
+    </div>
+
+    <div class="hero__visual" aria-hidden="false">
+      <div class="hero__plate" data-cursor="0.07" data-parallax="-0.06">
+        <div class="hero__plate-in">
+          <picture>
+            <source type="image/avif" srcset="assets/img/hero-plate.avif">
+            <img src="assets/img/hero-plate.webp" width="1256" height="1268"
+                 alt="Frissen sült pizza – a DTC Bisztró kínálatából" fetchpriority="high" decoding="async">
+          </picture>
+        </div>
+      </div>
+
+      <div class="hero__stamp" data-cursor="0.11" aria-hidden="true">
+        <svg viewBox="0 0 200 200">
+          <defs><path id="ring" d="M100,100 m-74,0 a74,74 0 1,1 148,0 a74,74 0 1,1 -148,0"/></defs>
+          <text><textPath href="#ring" startOffset="0">
+            NAPI MENÜ · 1 860 FT-TÓL · HÉTFŐ–PÉNTEK · DIÓSD ·
+          </textPath></text>
+        </svg>
+        <span class="hero__stamp-in">4+1</span>
+      </div>
+
+      <p class="hero__chip"><b>4 menü</b> → az <b>5. ajándék</b></p>
+    </div>
+  </div>
+
+  <a class="hero__scroll" href="#menu" aria-label="Görgess a napi menühöz">
+    <span>Görgess</span><i aria-hidden="true"></i>
+  </a>
+</section>
+
+<!-- ============================ INFO STRIP ============================ -->
+<div class="ticker" aria-hidden="true">
+  <div class="ticker__track">
+    <span>Napi menü</span><i>✳</i><span>Házhozszállítás</span><i>✳</i><span>Diósd</span><i>✳</i>
+    <span>Online rendelés</span><i>✳</i><span>Frissen készítve</span><i>✳</i><span>4+1 akció</span><i>✳</i>
+    <span>Napi menü</span><i>✳</i><span>Házhozszállítás</span><i>✳</i><span>Diósd</span><i>✳</i>
+    <span>Online rendelés</span><i>✳</i><span>Frissen készítve</span><i>✳</i><span>4+1 akció</span><i>✳</i>
+  </div>
+</div>
+
+<!-- ============================ NAPI MENÜ ============================ -->
+<section class="section menu" id="menu">
+  <div class="wrap">
+    <header class="shead reveal">
+      <p class="label">(01) — Napi menü</p>
+      <h2 class="h2">Mi legyen <em>ma</em> az ebéd?</h2>
+      <div class="shead__meta">
+        <span class="chip">Hétfő–Péntek</span>
+        <span class="chip">Kiszállítás 11:00–15:00</span>
+        <span class="chip chip--accent">1 860 Ft-tól</span>
+      </div>
+    </header>
+
+    <div class="menu__grid">
+      <figure class="menu__shot reveal">
+        <div class="frame">
+          <img src="assets/img/menu-hero.webp" width="1000" height="1250" loading="lazy" decoding="async"
+               alt="A DTC Bisztró egyik frissen tálalt fogása">
+        </div>
+        <img class="menu__shot-2" src="assets/img/menu-hero-2.webp" width="760" height="760"
+             loading="lazy" decoding="async" alt="Pizza a DTC Bisztró kínálatából">
+        <figcaption>Minden nap frissen · a kínálatból</figcaption>
+      </figure>
+
+      <!-- ================= NAPI MENÜ KÁRTYÁK (demo tartalom) =================
+           Ez a blokk naponta frissíthető: az értékeket a data-menu.js tartalmazza,
+           a HTML a biztonságos alapértéket szolgálja. -->
+      <div class="menu__cards">
+        <article class="mcard reveal" data-tilt style="--d:.05s">
+          <span class="mcard__no">01</span>
+          <div class="mcard__body">
+            <p class="mcard__kicker">Leves</p>
+            <h3 class="mcard__dish" data-field="dish1">Azték barackleves</h3>
+            <p class="mcard__alt" data-field="alt1">Babgulyás – a hét másik napján</p>
+            <ul class="tags" data-field="tags1"><li>Gluténmentes</li><li>Laktózmentes</li></ul>
+          </div>
+          <div class="mcard__foot">
+            <span class="mcard__price">A menü része</span>
+            <a class="link-arrow" href="https://dtcbisztro.hu/" target="_blank" rel="noopener">Rendelek</a>
+          </div>
+        </article>
+
+        <article class="mcard reveal" data-tilt style="--d:.12s">
+          <span class="mcard__no">02</span>
+          <div class="mcard__body">
+            <p class="mcard__kicker">Főétel</p>
+            <h3 class="mcard__dish" data-field="dish2">Tarhonyás hús</h3>
+            <p class="mcard__alt" data-field="alt2">vagy tökfőzelék fasírttal</p>
+            <ul class="tags" data-field="tags2"><li>Laktózmentes</li><li>Vegetáriánus opció</li></ul>
+          </div>
+          <div class="mcard__foot">
+            <span class="mcard__price">Normál · Macho · Picúr</span>
+            <a class="link-arrow" href="https://dtcbisztro.hu/" target="_blank" rel="noopener">Rendelek</a>
+          </div>
+        </article>
+
+        <article class="mcard reveal" data-tilt style="--d:.19s">
+          <span class="mcard__no">03</span>
+          <div class="mcard__body">
+            <p class="mcard__kicker">B menü</p>
+            <h3 class="mcard__dish" data-field="dish3">Hagymás rostélyos</h3>
+            <p class="mcard__alt" data-field="alt3">steakburgonyával · vagy töltött káposzta</p>
+            <ul class="tags" data-field="tags3"><li>Gluténmentes</li><li>Laktózmentes</li></ul>
+          </div>
+          <div class="mcard__foot">
+            <span class="mcard__price">Ugyanazzal a levessel</span>
+            <a class="link-arrow" href="https://dtcbisztro.hu/" target="_blank" rel="noopener">Rendelek</a>
+          </div>
+        </article>
+
+        <div class="menu__sizes reveal" style="--d:.26s">
+          <p class="menu__sizes-label">Adagméret</p>
+          <ul class="sizes">
+            <li><b>Picúr</b><span>kisebb étvágyra</span></li>
+            <li class="is-on"><b>Normál</b><span>a klasszikus adag</span></li>
+            <li><b>Macho</b><span>aki többet enne</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu__foot reveal">
+      <p class="note"><span class="tag-demo">Demo</span> Bemutató tartalom: élesben a napi menü innen,
+        naponta frissülve jelenik meg. A főétel mindig választható opciókkal érkezik.</p>
+      <div class="menu__cta">
+        <a class="btn btn--accent" href="https://dtcbisztro.hu/" target="_blank" rel="noopener" data-magnetic>Rendelek</a>
+        <a class="btn btn--ghost" href="https://dtcbisztro.hu/etlap" target="_blank" rel="noopener">Teljes étlap</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== PROMÓ ============================== -->
+<section class="promo">
+  <div class="wrap promo__grid">
+    <div class="promo__num reveal" aria-hidden="true">
+      <span class="promo__n" data-count="4">4</span>
+      <span class="promo__plus">+</span>
+      <span class="promo__n promo__n--accent" data-count="1">1</span>
+    </div>
+
+    <div class="promo__copy reveal" style="--d:.1s">
+      <p class="label label--accent">Ajánlat</p>
+      <h2 class="h2 h2--sm">4 menü rendelése esetén<br><em>az 5. ajándék.</em></h2>
+      <p class="promo__text">Rendelj négy napi menüt – az ötödiket a DTC fizeti. Az akció a heti
+        rendelésekre érvényes, hétfőtől péntekig.</p>
+      <a class="btn btn--accent" href="https://dtcbisztro.hu/" target="_blank" rel="noopener" data-magnetic>
+        Rendelek most
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13M12 5l7 7-7 7"/></svg>
+      </a>
+    </div>
+
+    <figure class="promo__shot reveal" style="--d:.16s">
+      <img src="assets/img/promo-wide.webp" width="1600" height="900" loading="lazy" decoding="async"
+           alt="Frissen tálalt fogás a DTC Bisztróból">
+      <figcaption>Hétköznap, házhoz is</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============================= KÍNÁLAT ============================= -->
+<section class="section kinalat" id="kinalat">
+  <div class="wrap">
+    <header class="shead shead--split reveal">
+      <div>
+        <p class="label">(02) — Kínálat</p>
+        <h2 class="h2">Nem csak napi menü.<br><em>Minden, ami jól esik.</em></h2>
+      </div>
+      <p class="shead__aside">Pizzák, frissensültek, saláták és köretek – ahogy a DTC kínálja.
+        Rendelés házhoz vagy elvitelre.</p>
+    </header>
+
+    <div class="kgrid">
+      <a class="kcard kcard--tall reveal" href="https://dtcbisztro.hu/etlap" target="_blank" rel="noopener">
+        <figure><img src="assets/img/cat-menu.webp" width="960" height="1200" loading="lazy" decoding="async" alt="Napi menü a DTC Bisztróból"></figure>
+        <div class="kcard__label"><span class="kcard__no">01</span><h3>Napi menü</h3><p>leves + főétel, hétköznap</p></div>
+        <span class="kcard__arrow" aria-hidden="true">→</span>
+      </a>
+
+      <a class="kcard kcard--wide reveal" style="--d:.06s" href="https://dtcbisztro.hu/etlap" target="_blank" rel="noopener">
+        <figure><img src="assets/img/cat-pizza.webp" width="960" height="1200" loading="lazy" decoding="async" alt="Pizza a DTC Bisztró kínálatából"></figure>
+        <div class="kcard__label"><span class="kcard__no">02</span><h3>Pizzák</h3><p>32 cm, kemencés</p></div>
+        <span class="kcard__arrow" aria-hidden="true">→</span>
+      </a>
+
+      <a class="kcard reveal" style="--d:.12s" href="https://dtcbisztro.hu/etlap" target="_blank" rel="noopener">
+        <figure><img src="assets/img/cat-sult.webp" width="960" height="1200" loading="lazy" decoding="async" alt="Frissen sült fogások"></figure>
+        <div class="kcard__label"><span class="kcard__no">03</span><h3>Frissensültek</h3><p>rántott, sült, köretekkel</p></div>
+        <span class="kcard__arrow" aria-hidden="true">→</span>
+      </a>
+
+      <a class="kcard reveal" style="--d:.16s" href="https://dtcbisztro.hu/etlap" target="_blank" rel="noopener">
+        <figure><img src="assets/img/cat-salata.webp" width="960" height="960" loading="lazy" decoding="async" alt="Friss saláta"></figure>
+        <div class="kcard__label"><span class="kcard__no">04</span><h3>Saláták</h3><p>könnyű, friss</p></div>
+        <span class="kcard__arrow" aria-hidden="true">→</span>
+      </a>
+
+      <a class="kcard kcard--text reveal" style="--d:.2s" href="https://dtcbisztro.hu/etlap" target="_blank" rel="noopener">
+        <div class="kcard__label"><span class="kcard__no">05</span><h3>További fogások</h3>
+          <p>köretek, desszertek és italok – a teljes étlapon</p></div>
+        <span class="kcard__arrow" aria-hidden="true">→</span>
+      </a>
+
+      <a class="kcard kcard--solid reveal" style="--d:.24s" href="https://dtcbisztro.hu/" target="_blank" rel="noopener">
+        <div class="kcard__label"><span class="kcard__no">06</span><h3>Házhozszállítás</h3>
+          <p>kiszállítás 11:00–15:00 között, hétköznap</p></div>
+        <span class="kcard__arrow" aria-hidden="true">→</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- =========================== RENDELÉSI FOLYAMAT =========================== -->
+<section class="section steps" id="rendeles">
+  <div class="wrap">
+    <header class="shead reveal">
+      <p class="label">(03) — Rendelés</p>
+      <h2 class="h2">Három lépés,<br><em>és jön az ebéd.</em></h2>
+    </header>
+
+    <ol class="timeline" data-timeline>
+      <span class="timeline__rail" aria-hidden="true"><i class="timeline__progress"></i></span>
+      <li class="tstep reveal">
+        <span class="tstep__no">01</span>
+        <h3>Válaszd ki</h3>
+        <p>Nézd meg a mai menüt vagy az étlapot, és jelöld be, mi kell: leves, főétel, adagméret.</p>
+      </li>
+      <li class="tstep reveal" style="--d:.1s">
+        <span class="tstep__no">02</span>
+        <h3>Rendeld meg</h3>
+        <p>Add le a rendelésed online, vagy hívd a +36 70 413 3439 számot. Fizethetsz online is.</p>
+      </li>
+      <li class="tstep reveal" style="--d:.2s">
+        <span class="tstep__no">03</span>
+        <h3>Mi visszük</h3>
+        <p>Hétköznap 11:00 és 15:00 között kivisszük – vagy érted jössz a Pacsirta utcába.</p>
+      </li>
+    </ol>
+
+    <div class="steps__foot reveal">
+      <a class="btn btn--accent btn--lg" href="https://dtcbisztro.hu/" target="_blank" rel="noopener" data-magnetic>Rendelek</a>
+      <p class="note">A látványtervben a gomb a jelenlegi rendelési rendszerre mutat – az új oldalra
+        később saját kosár és rendelési motor is integrálható.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== GALÉRIA ============================== -->
+<section class="section gallery" id="galeria">
+  <div class="wrap">
+    <header class="shead shead--split reveal">
+      <div>
+        <p class="label">(04) — Galéria</p>
+        <h2 class="h2">Ahogy az <em>asztalunkra</em> kerül.</h2>
+      </div>
+      <p class="shead__aside">Kattints a nagyításhoz. A képek a DTC Bisztró nyilvánosan elérhető
+        ételfotói.</p>
+    </header>
+  </div>
+
+  <div class="masonry">
+    <button class="mitem reveal" type="button" data-lightbox="assets/img/gal-1.avif" data-alt="Pizza a DTC Bisztróból">
+      <img src="assets/img/gal-1.webp" width="960" height="1280" loading="lazy" decoding="async" alt="Pizza a DTC Bisztró kínálatából – nagyításhoz kattints">
+    </button>
+    <button class="mitem mitem--wide reveal" style="--d:.06s" type="button" data-lightbox="assets/img/gal-2.avif" data-alt="Frissen tálalt fogás">
+      <img src="assets/img/gal-2.webp" width="1600" height="1000" loading="lazy" decoding="async" alt="Frissen tálalt fogás a DTC Bisztróból – nagyításhoz kattints">
+    </button>
+    <button class="mitem reveal" style="--d:.1s" type="button" data-lightbox="assets/img/gal-3.avif" data-alt="Pizza a DTC Bisztróból">
+      <img src="assets/img/gal-3.webp" width="1080" height="1080" loading="lazy" decoding="async" alt="Pizza a DTC Bisztró kínálatából – nagyításhoz kattints">
+    </button>
+    <button class="mitem reveal" style="--d:.14s" type="button" data-lightbox="assets/img/gal-4.avif" data-alt="Pizza">
+      <img src="assets/img/gal-4.webp" width="960" height="1280" loading="lazy" decoding="async" alt="Pizza a DTC Bisztróból – nagyításhoz kattints">
+    </button>
+    <button class="mitem reveal" style="--d:.18s" type="button" data-lightbox="assets/img/gal-6.avif" data-alt="Pizza">
+      <img src="assets/img/gal-6.webp" width="960" height="1200" loading="lazy" decoding="async" alt="Pizza a DTC Bisztró kínálatából – nagyításhoz kattints">
+    </button>
+    <button class="mitem reveal" style="--d:.22s" type="button" data-lightbox="assets/img/gal-7.avif" data-alt="Pizza a DTC Bisztróból">
+      <img src="assets/img/gal-7.webp" width="1080" height="1080" loading="lazy" decoding="async" alt="Pizza a DTC Bisztró kínálatából – nagyításhoz kattints">
+    </button>
+  </div>
+
+  <figure class="bleed reveal">
+    <img src="assets/img/gal-8.webp" width="1600" height="1066" loading="lazy" decoding="async"
+         alt="Pizza a DTC Bisztró kínálatából" data-parallax="0.07">
+    <figcaption class="wrap"><span>DTC Bisztró</span><span>Diósd</span></figcaption>
+  </figure>
+</section>
+
+<!-- ============================== MIÉRT DTC ============================== -->
+<section class="section why">
+  <div class="wrap">
+    <header class="shead reveal">
+      <p class="label">(05) — Miért DTC?</p>
+      <h2 class="h2">Egyszerű okokból.</h2>
+    </header>
+
+    <div class="why__grid">
+      <figure class="why__shot reveal">
+        <img class="is-on" src="assets/img/why-1.webp" width="1000" height="1250" loading="lazy" decoding="async"
+             alt="A DTC Bisztró egyik fogása" data-why="0">
+        <img src="assets/img/why-2.webp" width="1000" height="1250" loading="lazy" decoding="async"
+             alt="Pizza a DTC Bisztró kínálatából" data-why="1">
+        <img src="assets/img/why-3.webp" width="1000" height="1250" loading="lazy" decoding="async"
+             alt="Frissensült a DTC Bisztróból" data-why="2">
+        <img src="assets/img/why-4.webp" width="1000" height="1250" loading="lazy" decoding="async"
+             alt="Friss saláta a DTC Bisztróból" data-why="3">
+      </figure>
+
+      <ol class="why__list">
+        <li class="why__item reveal" data-why-trigger="0">
+          <span class="why__no">01</span>
+          <div>
+            <h3>Frissen készül</h3>
+            <p>Házias ízek modern köntösben: a fogások frissen készülnek, nem előre összedobva.</p>
+          </div>
+        </li>
+        <li class="why__item reveal" style="--d:.08s" data-why-trigger="1">
+          <span class="why__no">02</span>
+          <div>
+            <h3>Minden hétköznap</h3>
+            <p>Hétfőtől péntekig új napi menü. Az online rendelés 08:00 és 14:55 között nyitva áll.</p>
+          </div>
+        </li>
+        <li class="why__item reveal" style="--d:.16s" data-why-trigger="2">
+          <span class="why__no">03</span>
+          <div>
+            <h3>Házhoz is</h3>
+            <p>A napi menüt házhoz is rendelheted: a kiszállítás 11:00 és 15:00 között történik.</p>
+          </div>
+        </li>
+        <li class="why__item reveal" style="--d:.24s" data-why-trigger="3">
+          <span class="why__no">04</span>
+          <div>
+            <h3>Diósdon</h3>
+            <p>2049 Diósd, Pacsirta utca 29. – telefonon és online is elérsz minket.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+
+    <ul class="why__strip reveal">
+      <li>Online fizetés</li>
+      <li>SZÉP kártya és készpénz</li>
+      <li>Mobilalkalmazás iOS-en és Androidon</li>
+      <li>4 menü → 5. ajándék</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============================= KAPCSOLAT ============================= -->
+<section class="section contact" id="kapcsolat">
+  <div class="wrap contact__grid">
+    <div class="contact__info reveal">
+      <p class="label">(06) — Kapcsolat</p>
+      <h2 class="h2">Gyere be,<br><em>vagy rendelj.</em></h2>
+
+      <address class="contact__block">
+        <div>
+          <span class="contact__k">Cím</span>
+          <p>2049 Diósd,<br>Pacsirta utca 29.</p>
+        </div>
+        <div>
+          <span class="contact__k">Telefon</span>
+          <p><a href="tel:+36704133439">+36 70 413 3439</a></p>
+        </div>
+        <div>
+          <span class="contact__k">E-mail</span>
+          <p><a href="mailto:dtcbisztro@gmail.com">dtcbisztro@gmail.com</a></p>
+        </div>
+        <div>
+          <span class="contact__k">Üzemeltető</span>
+          <p>Kádár Gergely</p>
+        </div>
+      </address>
+
+      <div class="contact__actions">
+        <a class="btn btn--accent" href="https://www.google.com/maps/dir/?api=1&destination=Pacsirta%20utca%2029.%2C%202049%20Di%C3%B3sd" target="_blank" rel="noopener" data-magnetic>Útvonal</a>
+        <a class="btn btn--ghost" href="tel:+36704133439">Hívás</a>
+      </div>
+
+      <div class="hours reveal">
+        <p class="hours__title">Online rendelési idő</p>
+        <ul>
+          <li><span>Hétfő – Péntek</span><b>08:00 – 14:55</b></li>
+          <li class="is-off"><span>Szombat – Vasárnap</span><b>Szünnap</b></li>
+        </ul>
+        <p class="hours__note">A helyszíni nyitvatartásról érdeklődj telefonon – az online rendelés
+          a fenti időben fogadott.</p>
+      </div>
+    </div>
+
+    <div class="contact__map reveal" style="--d:.1s">
+      <iframe
+        src="https://www.google.com/maps?q=Pacsirta%20utca%2029.%2C%202049%20Di%C3%B3sd&output=embed"
+        title="DTC Bisztró – 2049 Diósd, Pacsirta utca 29. – térkép"
+        loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+      <div class="contact__map-card">
+        <b>DTC Bisztró</b>
+        <span>Pacsirta utca 29., Diósd</span>
+        <a href="https://www.google.com/maps/dir/?api=1&destination=Pacsirta%20utca%2029.%2C%202049%20Di%C3%B3sd" target="_blank" rel="noopener">Útvonaltervezés →</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap cta-band reveal">
+    <p class="cta-band__text"><em>Megéheztél?</em></p>
+    <a class="btn btn--accent btn--lg" href="https://dtcbisztro.hu/" target="_blank" rel="noopener" data-magnetic>
+      Rendelek
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13M12 5l7 7-7 7"/></svg>
+    </a>
+  </div>
+</section>
+</main>
+
+<!-- =============================== FOOTER =============================== -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__top">
+      <a class="footer__brand" href="#top">DTC <b>Bisztró</b></a>
+      <p class="footer__claim"><em>Diósd ízei. Frissen. Minden nap.</em></p>
+    </div>
+
+    <div class="footer__cols">
+      <div>
+        <p class="footer__k">Cím</p>
+        <p>2049 Diósd<br>Pacsirta utca 29.</p>
+      </div>
+      <div>
+        <p class="footer__k">Elérhetőség</p>
+        <p><a href="tel:+36704133439">+36 70 413 3439</a><br>
+           <a href="mailto:dtcbisztro@gmail.com">dtcbisztro@gmail.com</a></p>
+      </div>
+      <div>
+        <p class="footer__k">Menü</p>
+        <ul class="footer__nav">
+          <li><a href="#top">Főoldal</a></li>
+          <li><a href="#menu">Napi menü</a></li>
+          <li><a href="https://dtcbisztro.hu/etlap" target="_blank" rel="noopener">Étlap</a></li>
+          <li><a href="#rendeles">Rendelés</a></li>
+          <li><a href="#kapcsolat">Kapcsolat</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer__k">Kövess minket</p>
+        <a class="social" href="https://www.facebook.com/dtcbistro/" target="_blank" rel="noopener" aria-label="DTC Bisztró a Facebookon">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 21v-8h2.7l.4-3h-3.1V8.1c0-.9.3-1.5 1.5-1.5H16.7V4c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3V10H7.3v3H10v8h3.5Z"/></svg>
+          Facebook
+        </a>
+        <p class="footer__k footer__k--sp">Rendelés</p>
+        <a class="footer__order" href="https://dtcbisztro.hu/" target="_blank" rel="noopener">dtcbisztro.hu →</a>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <p>© <span data-year>2026</span> DTC Bisztró · Kádár Gergely e.v.</p>
+      <p class="footer__colo">Webdesign koncepció – ügyfélnek bemutatandó látványterv.
+        A képek a DTC Bisztró nyilvánosan elérhető ételfotói.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- =========================== MOBIL STICKY CTA =========================== -->
+<div class="sticky-cta" aria-hidden="false">
+  <a class="btn btn--ghost btn--sm" href="tel:+36704133439">Hívás</a>
+  <a class="btn btn--accent" href="https://dtcbisztro.hu/" target="_blank" rel="noopener">Rendelek</a>
+</div>
+
+<!-- =============================== LIGHTBOX =============================== -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Képnézegető" hidden>
+  <button class="lightbox__close" type="button" aria-label="Bezárás">Bezár <span aria-hidden="true">✕</span></button>
+  <button class="lightbox__nav lightbox__nav--prev" type="button" aria-label="Előző kép">←</button>
+  <figure><img src="" alt=""><figcaption></figcaption></figure>
+  <button class="lightbox__nav lightbox__nav--next" type="button" aria-label="Következő kép">→</button>
+</div>
+
+</body>
+</html>
